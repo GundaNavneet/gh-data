@@ -2,7 +2,7 @@ name: Deploy website
 on:
   push:
     branches:
-      - main
+      - main # or master, or other branch you want to trigger the workflow on
 jobs:
   test:
     runs-on: ubuntu-latest
